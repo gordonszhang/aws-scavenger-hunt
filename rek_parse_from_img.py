@@ -5,17 +5,17 @@ import json
 import urllib
 
 
-def lambda_haldler(event, context):
+def lambda_handler(event, context):
     rekognition = boto3.client('rekognition', 'us-west-2')
     is_correct = "is not correct"
     targets = ["Clemson", "is", "cool"]
 
-    fileName = 'input.jpg'
+    #image = event['url']
     # bucket = 'rekognition-examples-bucket'
 
     # assuming this is an http post method
-    if event['httpMethod'] == 'POST':
-        image = event['image']
+    if event['Records']['httpMethod'] == 'POST':
+        image = event['Records']['image']
         response = rekognition.detect_text(Image={'Bytes': image})
 
         # response = rekognition.detect_text(
@@ -28,7 +28,6 @@ def lambda_haldler(event, context):
         # pull score form db
         score = 3
 
-        print('Detected labels for ' + fileName)
         for label in response['TextDetections']:
             # print (label['DetectedText'] + ' : ' + str(label['Confidence']))
             if label['DetectedText'] in targets:  # && not already found
