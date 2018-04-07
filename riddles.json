@@ -1,0 +1,80 @@
+{
+    "hard": {
+        "questions": [
+            "I am always hungry, I must always be fed, The finger I touch, Will soon turn red",
+            "Gentle enough to soothe the skin, Light enough to caress the sky, Hard enough to crack rocks.",
+            "Say my name and I disappear. What am I?",
+            "Alive without breath, As cold as death, Clad in mail never clinking, Never thirsty, ever drinking",
+            "I build up castles. I tear down mountains. I make some men blind, I help others to see. What am I?"
+        ],
+        "answers": [
+            "fire",
+            "water",
+            "silence",
+            "fish",
+            "sand"
+        ]
+    },
+    "medium": {
+        "questions": [
+            "I know a word of letters three. Add two, and fewer there will be!",
+            "When set loose I fly away and those surrounding will go astray",
+            "I can be long, or I can be short. I can be grown, and I can be bought. I can be painted, or left bare. I can be round, or square. What am I?",
+            "I’m full of holes, yet I’m full of water. What am I?",
+            "What has a neck and no head, two arms but no hands?",
+            "Feed me and I live, give me drink and I die. What am I?",
+            "What goes around and around the wood but never goes into the wood?",
+            "What would you die without, walk through, and not see",
+            "I go around in circles, But always straight ahead"
+        ],
+        "answers": [
+            "few",
+            "fart",
+            "fingernail",
+            "sponge",
+            "shirt",
+            "fire",
+            "bark",
+            "air",
+            "wheel"
+        ]
+    },
+    "easy": {
+        "questions": [
+            "What is sometimes blue and wet",
+            "What is the name of a cat's foot",
+            "Students from this school are the best",
+            "What seems fluffy but is made of water",
+            "Where do you go when the building is on fire",
+            "Take off my skin - I won't cry, but you will",
+            "There are four seasons, summer, fall, winter, and"
+        ],
+        "answers": [
+            "water",
+            "paw",
+            "Clemson",
+            "cloud",
+            "exit",
+            "onion",
+            "spring"
+        ]
+    },
+    "demo": {
+        "questions": [
+            "What is sometimes blue and wet",
+            "What is the name of a cat's foot",
+            "Students from this school are the best",
+            "What seems fluffy but is made of water",
+            "Where do you go when the building is on fire",
+            "There are four seasons, summer, fall, winter, and"
+        ],
+        "answers": [
+            "water",
+            "paw",
+            "Clemson",
+            "cloud",
+            "exit",
+            "spring"
+        ]
+    }
+}
